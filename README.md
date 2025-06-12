@@ -1,4 +1,4 @@
-# Google Ads Client Library for Ruby
+# Google Ads Client Library for Ruby!
 
 `google-ads-googleads` uses [Google API extensions][google-gax] to provide an
 easy-to-use client library for the [Google Ads API][].
