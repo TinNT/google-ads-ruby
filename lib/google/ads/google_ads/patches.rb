@@ -18,6 +18,14 @@
 
 require 'google/protobuf/wrappers_pb'
 
+# Stub Google::Auth::BaseClient for compatibility with older googleauth gems
+# (< 1.2) that don't define this class, which v20 service clients reference.
+module Google
+  module Auth
+    BaseClient = Class.new unless defined?(BaseClient)
+  end
+end
+
 module Google
   module Protobuf
     class StringValue
