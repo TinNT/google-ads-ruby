@@ -66,8 +66,8 @@ module Google
 
           # If config.use_cloud_org_for_api_access is not True, add the developer
           # token to the request's metadata
-          if !config.use_cloud_org_for_api_access
-            headers[:"developer-token"] = config.developer_token
+          if !config.use_cloud_org_for_api_access && !config.developer_token.nil?
+            headers[:"developer-token"] = config.developer_token.to_s
           end
 
           if config.login_customer_id
