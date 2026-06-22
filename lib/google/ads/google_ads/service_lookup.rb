@@ -44,12 +44,18 @@ module Google
         private
 
         def factory_at_version(version, error_interceptor, logging_interceptor)
-          factory = Factories.at_version(version).services.new(**{
+          params = {
             logging_interceptor: logging_interceptor,
             error_interceptor: error_interceptor,
             deprecation: deprecator
-          }.merge(gax_service_params))
+          }.merge(gax_service_params)
 
+          # v21+ factories require metadata_interceptor keyword
+          if [:V21, :V22, :V23, :V24].include?(version)
+            params[:metadata_interceptor] = nil
+          end
+
+          factory = Factories.at_version(version).services.new(**params)
           factory
         end
 
