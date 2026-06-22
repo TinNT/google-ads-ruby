@@ -4,12 +4,11 @@ module Google
       module Factories
         module V20
           module Operations
-            
             # Create a new TargetRestrictionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Common::TargetRestrictionOperation] the operation
             def self.target_restriction
-              require "google/ads/google_ads/v20/common/targeting_setting_pb.rb"
+              require "google/ads/google_ads/v20/common/targeting_setting_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Common::TargetRestrictionOperation.new
                 yield op
@@ -18,12 +17,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Common::TargetRestrictionOperation.new
               end
             end
-            
+
             # Create a new AccountBudgetProposalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AccountBudgetProposalOperation] the operation
             def self.account_budget_proposal
-              require "google/ads/google_ads/v20/services/account_budget_proposal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/account_budget_proposal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AccountBudgetProposalOperation.new
                 yield op
@@ -32,12 +31,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AccountBudgetProposalOperation.new
               end
             end
-            
+
             # Create a new AccountLinkOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AccountLinkOperation] the operation
             def self.account_link
-              require "google/ads/google_ads/v20/services/account_link_service_pb.rb"
+              require "google/ads/google_ads/v20/services/account_link_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AccountLinkOperation.new
                 yield op
@@ -46,12 +45,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AccountLinkOperation.new
               end
             end
-            
+
             # Create a new AdGroupAdLabelOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAdLabelOperation] the operation
             def self.ad_group_ad_label
-              require "google/ads/google_ads/v20/services/ad_group_ad_label_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_ad_label_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdLabelOperation.new
                 yield op
@@ -60,12 +59,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupAdLabelOperation.new
               end
             end
-            
+
             # Create a new AdGroupAdOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation] the operation
             def self.ad_group_ad
-              require "google/ads/google_ads/v20/services/ad_group_ad_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_ad_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation.new
                 yield op
@@ -74,12 +73,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation.new
               end
             end
-            
+
             # Create a new AdGroupAssetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation] the operation
             def self.ad_group_asset
-              require "google/ads/google_ads/v20/services/ad_group_asset_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_asset_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation.new
                 yield op
@@ -88,12 +87,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation.new
               end
             end
-            
+
             # Create a new AdGroupAssetSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAssetSetOperation] the operation
             def self.ad_group_asset_set
-              require "google/ads/google_ads/v20/services/ad_group_asset_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_asset_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetSetOperation.new
                 yield op
@@ -102,12 +101,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupAssetSetOperation.new
               end
             end
-            
+
             # Create a new AdGroupBidModifierOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation] the operation
             def self.ad_group_bid_modifier
-              require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation.new
                 yield op
@@ -116,12 +115,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation.new
               end
             end
-            
+
             # Create a new AdGroupCriterionCustomizerOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionCustomizerOperation] the operation
             def self.ad_group_criterion_customizer
-              require "google/ads/google_ads/v20/services/ad_group_criterion_customizer_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_criterion_customizer_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionCustomizerOperation.new
                 yield op
@@ -130,12 +129,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupCriterionCustomizerOperation.new
               end
             end
-            
+
             # Create a new AdGroupCriterionLabelOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionLabelOperation] the operation
             def self.ad_group_criterion_label
-              require "google/ads/google_ads/v20/services/ad_group_criterion_label_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_criterion_label_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionLabelOperation.new
                 yield op
@@ -144,12 +143,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupCriterionLabelOperation.new
               end
             end
-            
+
             # Create a new AdGroupCriterionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation] the operation
             def self.ad_group_criterion
-              require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation.new
                 yield op
@@ -158,12 +157,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation.new
               end
             end
-            
+
             # Create a new AdGroupCustomizerOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCustomizerOperation] the operation
             def self.ad_group_customizer
-              require "google/ads/google_ads/v20/services/ad_group_customizer_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_customizer_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCustomizerOperation.new
                 yield op
@@ -172,12 +171,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupCustomizerOperation.new
               end
             end
-            
+
             # Create a new AdGroupLabelOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupLabelOperation] the operation
             def self.ad_group_label
-              require "google/ads/google_ads/v20/services/ad_group_label_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_label_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupLabelOperation.new
                 yield op
@@ -186,12 +185,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupLabelOperation.new
               end
             end
-            
+
             # Create a new AdGroupOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdGroupOperation] the operation
             def self.ad_group
-              require "google/ads/google_ads/v20/services/ad_group_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_group_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupOperation.new
                 yield op
@@ -200,12 +199,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdGroupOperation.new
               end
             end
-            
+
             # Create a new AdParameterOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdParameterOperation] the operation
             def self.ad_parameter
-              require "google/ads/google_ads/v20/services/ad_parameter_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_parameter_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdParameterOperation.new
                 yield op
@@ -214,12 +213,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdParameterOperation.new
               end
             end
-            
+
             # Create a new AdOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AdOperation] the operation
             def self.ad
-              require "google/ads/google_ads/v20/services/ad_service_pb.rb"
+              require "google/ads/google_ads/v20/services/ad_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AdOperation.new
                 yield op
@@ -228,12 +227,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AdOperation.new
               end
             end
-            
+
             # Create a new AssetGroupAssetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation] the operation
             def self.asset_group_asset
-              require "google/ads/google_ads/v20/services/asset_group_asset_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_group_asset_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation.new
                 yield op
@@ -242,12 +241,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation.new
               end
             end
-            
+
             # Create a new AssetGroupListingGroupFilterOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation] the operation
             def self.asset_group_listing_group_filter
-              require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation.new
                 yield op
@@ -256,12 +255,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation.new
               end
             end
-            
+
             # Create a new AssetGroupOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupOperation] the operation
             def self.asset_group
-              require "google/ads/google_ads/v20/services/asset_group_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_group_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupOperation.new
                 yield op
@@ -270,12 +269,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetGroupOperation.new
               end
             end
-            
+
             # Create a new AssetGroupSignalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupSignalOperation] the operation
             def self.asset_group_signal
-              require "google/ads/google_ads/v20/services/asset_group_signal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_group_signal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupSignalOperation.new
                 yield op
@@ -284,12 +283,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetGroupSignalOperation.new
               end
             end
-            
+
             # Create a new AssetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetOperation] the operation
             def self.asset
-              require "google/ads/google_ads/v20/services/asset_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetOperation.new
                 yield op
@@ -298,12 +297,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetOperation.new
               end
             end
-            
+
             # Create a new AssetSetAssetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetSetAssetOperation] the operation
             def self.asset_set_asset
-              require "google/ads/google_ads/v20/services/asset_set_asset_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_set_asset_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetAssetOperation.new
                 yield op
@@ -312,12 +311,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetSetAssetOperation.new
               end
             end
-            
+
             # Create a new AssetSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AssetSetOperation] the operation
             def self.asset_set
-              require "google/ads/google_ads/v20/services/asset_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/asset_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetOperation.new
                 yield op
@@ -326,12 +325,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AssetSetOperation.new
               end
             end
-            
+
             # Create a new AudienceOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::AudienceOperation] the operation
             def self.audience
-              require "google/ads/google_ads/v20/services/audience_service_pb.rb"
+              require "google/ads/google_ads/v20/services/audience_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::AudienceOperation.new
                 yield op
@@ -340,12 +339,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::AudienceOperation.new
               end
             end
-            
+
             # Create a new BiddingDataExclusionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation] the operation
             def self.bidding_data_exclusion
-              require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb.rb"
+              require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation.new
                 yield op
@@ -354,12 +353,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation.new
               end
             end
-            
+
             # Create a new BiddingSeasonalityAdjustmentOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation] the operation
             def self.bidding_seasonality_adjustment
-              require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb.rb"
+              require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation.new
                 yield op
@@ -368,12 +367,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation.new
               end
             end
-            
+
             # Create a new BiddingStrategyOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation] the operation
             def self.bidding_strategy
-              require "google/ads/google_ads/v20/services/bidding_strategy_service_pb.rb"
+              require "google/ads/google_ads/v20/services/bidding_strategy_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation.new
                 yield op
@@ -382,12 +381,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation.new
               end
             end
-            
+
             # Create a new CampaignAssetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation] the operation
             def self.campaign_asset
-              require "google/ads/google_ads/v20/services/campaign_asset_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_asset_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation.new
                 yield op
@@ -396,12 +395,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation.new
               end
             end
-            
+
             # Create a new CampaignAssetSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignAssetSetOperation] the operation
             def self.campaign_asset_set
-              require "google/ads/google_ads/v20/services/campaign_asset_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_asset_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetSetOperation.new
                 yield op
@@ -410,12 +409,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignAssetSetOperation.new
               end
             end
-            
+
             # Create a new CampaignBidModifierOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation] the operation
             def self.campaign_bid_modifier
-              require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation.new
                 yield op
@@ -424,12 +423,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation.new
               end
             end
-            
+
             # Create a new CampaignBudgetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation] the operation
             def self.campaign_budget
-              require "google/ads/google_ads/v20/services/campaign_budget_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_budget_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation.new
                 yield op
@@ -438,12 +437,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation.new
               end
             end
-            
+
             # Create a new CampaignConversionGoalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignConversionGoalOperation] the operation
             def self.campaign_conversion_goal
-              require "google/ads/google_ads/v20/services/campaign_conversion_goal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_conversion_goal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignConversionGoalOperation.new
                 yield op
@@ -452,12 +451,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignConversionGoalOperation.new
               end
             end
-            
+
             # Create a new CampaignCriterionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation] the operation
             def self.campaign_criterion
-              require "google/ads/google_ads/v20/services/campaign_criterion_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_criterion_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation.new
                 yield op
@@ -466,12 +465,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation.new
               end
             end
-            
+
             # Create a new CampaignCustomizerOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignCustomizerOperation] the operation
             def self.campaign_customizer
-              require "google/ads/google_ads/v20/services/campaign_customizer_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_customizer_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCustomizerOperation.new
                 yield op
@@ -480,12 +479,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignCustomizerOperation.new
               end
             end
-            
+
             # Create a new CampaignDraftOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation] the operation
             def self.campaign_draft
-              require "google/ads/google_ads/v20/services/campaign_draft_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_draft_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation.new
                 yield op
@@ -494,12 +493,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation.new
               end
             end
-            
+
             # Create a new CampaignGroupOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation] the operation
             def self.campaign_group
-              require "google/ads/google_ads/v20/services/campaign_group_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_group_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation.new
                 yield op
@@ -508,12 +507,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation.new
               end
             end
-            
+
             # Create a new CampaignLabelOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignLabelOperation] the operation
             def self.campaign_label
-              require "google/ads/google_ads/v20/services/campaign_label_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_label_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLabelOperation.new
                 yield op
@@ -522,12 +521,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignLabelOperation.new
               end
             end
-            
+
             # Create a new CampaignOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignOperation] the operation
             def self.campaign
-              require "google/ads/google_ads/v20/services/campaign_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignOperation.new
                 yield op
@@ -536,12 +535,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignOperation.new
               end
             end
-            
+
             # Create a new EnableOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::EnableOperation] the operation
             def self.enable
-              require "google/ads/google_ads/v20/services/campaign_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::EnableOperation.new
                 yield op
@@ -550,12 +549,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::EnableOperation.new
               end
             end
-            
+
             # Create a new CampaignSharedSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignSharedSetOperation] the operation
             def self.campaign_shared_set
-              require "google/ads/google_ads/v20/services/campaign_shared_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_shared_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignSharedSetOperation.new
                 yield op
@@ -564,12 +563,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignSharedSetOperation.new
               end
             end
-            
+
             # Create a new ConversionActionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ConversionActionOperation] the operation
             def self.conversion_action
-              require "google/ads/google_ads/v20/services/conversion_action_service_pb.rb"
+              require "google/ads/google_ads/v20/services/conversion_action_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ConversionActionOperation.new
                 yield op
@@ -578,12 +577,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ConversionActionOperation.new
               end
             end
-            
+
             # Create a new ConversionCustomVariableOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation] the operation
             def self.conversion_custom_variable
-              require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb.rb"
+              require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation.new
                 yield op
@@ -592,12 +591,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation.new
               end
             end
-            
+
             # Create a new ConversionGoalCampaignConfigOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ConversionGoalCampaignConfigOperation] the operation
             def self.conversion_goal_campaign_config
-              require "google/ads/google_ads/v20/services/conversion_goal_campaign_config_service_pb.rb"
+              require "google/ads/google_ads/v20/services/conversion_goal_campaign_config_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ConversionGoalCampaignConfigOperation.new
                 yield op
@@ -606,12 +605,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ConversionGoalCampaignConfigOperation.new
               end
             end
-            
+
             # Create a new ConversionValueRuleOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation] the operation
             def self.conversion_value_rule
-              require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb.rb"
+              require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation.new
                 yield op
@@ -620,12 +619,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation.new
               end
             end
-            
+
             # Create a new ConversionValueRuleSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation] the operation
             def self.conversion_value_rule_set
-              require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation.new
                 yield op
@@ -634,12 +633,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation.new
               end
             end
-            
+
             # Create a new CustomConversionGoalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation] the operation
             def self.custom_conversion_goal
-              require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation.new
                 yield op
@@ -648,12 +647,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation.new
               end
             end
-            
+
             # Create a new CustomerAssetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation] the operation
             def self.customer_asset
-              require "google/ads/google_ads/v20/services/customer_asset_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_asset_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation.new
                 yield op
@@ -662,12 +661,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation.new
               end
             end
-            
+
             # Create a new CustomerConversionGoalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerConversionGoalOperation] the operation
             def self.customer_conversion_goal
-              require "google/ads/google_ads/v20/services/customer_conversion_goal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_conversion_goal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerConversionGoalOperation.new
                 yield op
@@ -676,12 +675,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerConversionGoalOperation.new
               end
             end
-            
+
             # Create a new CustomerCustomizerOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerCustomizerOperation] the operation
             def self.customer_customizer
-              require "google/ads/google_ads/v20/services/customer_customizer_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_customizer_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerCustomizerOperation.new
                 yield op
@@ -690,12 +689,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerCustomizerOperation.new
               end
             end
-            
+
             # Create a new CustomerLabelOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerLabelOperation] the operation
             def self.customer_label
-              require "google/ads/google_ads/v20/services/customer_label_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_label_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLabelOperation.new
                 yield op
@@ -704,12 +703,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerLabelOperation.new
               end
             end
-            
+
             # Create a new CustomerNegativeCriterionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerNegativeCriterionOperation] the operation
             def self.customer_negative_criterion
-              require "google/ads/google_ads/v20/services/customer_negative_criterion_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_negative_criterion_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerNegativeCriterionOperation.new
                 yield op
@@ -718,12 +717,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerNegativeCriterionOperation.new
               end
             end
-            
+
             # Create a new CustomerOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerOperation] the operation
             def self.customer
-              require "google/ads/google_ads/v20/services/customer_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerOperation.new
                 yield op
@@ -732,12 +731,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerOperation.new
               end
             end
-            
+
             # Create a new CustomizerAttributeOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomizerAttributeOperation] the operation
             def self.customizer_attribute
-              require "google/ads/google_ads/v20/services/customizer_attribute_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customizer_attribute_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomizerAttributeOperation.new
                 yield op
@@ -746,12 +745,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomizerAttributeOperation.new
               end
             end
-            
+
             # Create a new ExperimentArmOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation] the operation
             def self.experiment_arm
-              require "google/ads/google_ads/v20/services/experiment_arm_service_pb.rb"
+              require "google/ads/google_ads/v20/services/experiment_arm_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation.new
                 yield op
@@ -760,12 +759,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation.new
               end
             end
-            
+
             # Create a new ExperimentOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ExperimentOperation] the operation
             def self.experiment
-              require "google/ads/google_ads/v20/services/experiment_service_pb.rb"
+              require "google/ads/google_ads/v20/services/experiment_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentOperation.new
                 yield op
@@ -774,12 +773,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ExperimentOperation.new
               end
             end
-            
+
             # Create a new KeywordPlanAdGroupKeywordOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation] the operation
             def self.keyword_plan_ad_group_keyword
-              require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb.rb"
+              require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation.new
                 yield op
@@ -788,12 +787,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation.new
               end
             end
-            
+
             # Create a new KeywordPlanAdGroupOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation] the operation
             def self.keyword_plan_ad_group
-              require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb.rb"
+              require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation.new
                 yield op
@@ -802,12 +801,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation.new
               end
             end
-            
+
             # Create a new KeywordPlanCampaignKeywordOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation] the operation
             def self.keyword_plan_campaign_keyword
-              require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb.rb"
+              require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation.new
                 yield op
@@ -816,12 +815,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation.new
               end
             end
-            
+
             # Create a new KeywordPlanCampaignOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation] the operation
             def self.keyword_plan_campaign
-              require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb.rb"
+              require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation.new
                 yield op
@@ -830,12 +829,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation.new
               end
             end
-            
+
             # Create a new KeywordPlanOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation] the operation
             def self.keyword_plan
-              require "google/ads/google_ads/v20/services/keyword_plan_service_pb.rb"
+              require "google/ads/google_ads/v20/services/keyword_plan_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation.new
                 yield op
@@ -844,12 +843,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation.new
               end
             end
-            
+
             # Create a new LabelOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::LabelOperation] the operation
             def self.label
-              require "google/ads/google_ads/v20/services/label_service_pb.rb"
+              require "google/ads/google_ads/v20/services/label_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::LabelOperation.new
                 yield op
@@ -858,12 +857,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::LabelOperation.new
               end
             end
-            
+
             # Create a new RecommendationSubscriptionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation] the operation
             def self.recommendation_subscription
-              require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb.rb"
+              require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation.new
                 yield op
@@ -872,12 +871,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation.new
               end
             end
-            
+
             # Create a new RemarketingActionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation] the operation
             def self.remarketing_action
-              require "google/ads/google_ads/v20/services/remarketing_action_service_pb.rb"
+              require "google/ads/google_ads/v20/services/remarketing_action_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation.new
                 yield op
@@ -886,12 +885,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation.new
               end
             end
-            
+
             # Create a new SharedCriterionOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::SharedCriterionOperation] the operation
             def self.shared_criterion
-              require "google/ads/google_ads/v20/services/shared_criterion_service_pb.rb"
+              require "google/ads/google_ads/v20/services/shared_criterion_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::SharedCriterionOperation.new
                 yield op
@@ -900,12 +899,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::SharedCriterionOperation.new
               end
             end
-            
+
             # Create a new SharedSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::SharedSetOperation] the operation
             def self.shared_set
-              require "google/ads/google_ads/v20/services/shared_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/shared_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::SharedSetOperation.new
                 yield op
@@ -914,12 +913,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::SharedSetOperation.new
               end
             end
-            
+
             # Create a new SmartCampaignSettingOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::SmartCampaignSettingOperation] the operation
             def self.smart_campaign_setting
-              require "google/ads/google_ads/v20/services/smart_campaign_setting_service_pb.rb"
+              require "google/ads/google_ads/v20/services/smart_campaign_setting_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::SmartCampaignSettingOperation.new
                 yield op
@@ -928,12 +927,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::SmartCampaignSettingOperation.new
               end
             end
-            
+
             # Create a new UserListOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::UserListOperation] the operation
             def self.user_list
-              require "google/ads/google_ads/v20/services/user_list_service_pb.rb"
+              require "google/ads/google_ads/v20/services/user_list_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::UserListOperation.new
                 yield op
@@ -942,12 +941,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::UserListOperation.new
               end
             end
-            
+
             # Create a new MutateOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::MutateOperation] the operation
             def self.mutate
-              require "google/ads/google_ads/v20/services/google_ads_service_pb.rb"
+              require "google/ads/google_ads/v20/services/google_ads_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::MutateOperation.new
                 yield op
@@ -956,12 +955,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::MutateOperation.new
               end
             end
-            
+
             # Create a new BatchJobOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::BatchJobOperation] the operation
             def self.batch_job
-              require "google/ads/google_ads/v20/services/batch_job_service_pb.rb"
+              require "google/ads/google_ads/v20/services/batch_job_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::BatchJobOperation.new
                 yield op
@@ -970,12 +969,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::BatchJobOperation.new
               end
             end
-            
+
             # Create a new BillingSetupOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::BillingSetupOperation] the operation
             def self.billing_setup
-              require "google/ads/google_ads/v20/services/billing_setup_service_pb.rb"
+              require "google/ads/google_ads/v20/services/billing_setup_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::BillingSetupOperation.new
                 yield op
@@ -984,12 +983,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::BillingSetupOperation.new
               end
             end
-            
+
             # Create a new CampaignLifecycleGoalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation] the operation
             def self.campaign_lifecycle_goal
-              require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation.new
                 yield op
@@ -998,12 +997,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation.new
               end
             end
-            
+
             # Create a new CustomAudienceOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation] the operation
             def self.custom_audience
-              require "google/ads/google_ads/v20/services/custom_audience_service_pb.rb"
+              require "google/ads/google_ads/v20/services/custom_audience_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation.new
                 yield op
@@ -1012,12 +1011,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation.new
               end
             end
-            
+
             # Create a new CustomInterestOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomInterestOperation] the operation
             def self.custom_interest
-              require "google/ads/google_ads/v20/services/custom_interest_service_pb.rb"
+              require "google/ads/google_ads/v20/services/custom_interest_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomInterestOperation.new
                 yield op
@@ -1026,12 +1025,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomInterestOperation.new
               end
             end
-            
+
             # Create a new CustomerAssetSetOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerAssetSetOperation] the operation
             def self.customer_asset_set
-              require "google/ads/google_ads/v20/services/customer_asset_set_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_asset_set_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetSetOperation.new
                 yield op
@@ -1040,12 +1039,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerAssetSetOperation.new
               end
             end
-            
+
             # Create a new CustomerClientLinkOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation] the operation
             def self.customer_client_link
-              require "google/ads/google_ads/v20/services/customer_client_link_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_client_link_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation.new
                 yield op
@@ -1054,12 +1053,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation.new
               end
             end
-            
+
             # Create a new CustomerLifecycleGoalOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation] the operation
             def self.customer_lifecycle_goal
-              require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation.new
                 yield op
@@ -1068,12 +1067,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation.new
               end
             end
-            
+
             # Create a new CustomerManagerLinkOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerManagerLinkOperation] the operation
             def self.customer_manager_link
-              require "google/ads/google_ads/v20/services/customer_manager_link_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_manager_link_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerManagerLinkOperation.new
                 yield op
@@ -1082,12 +1081,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerManagerLinkOperation.new
               end
             end
-            
+
             # Create a new CustomerSkAdNetworkConversionValueSchemaOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerSkAdNetworkConversionValueSchemaOperation] the operation
             def self.customer_sk_ad_network_conversion_value_schema
-              require "google/ads/google_ads/v20/services/customer_sk_ad_network_conversion_value_schema_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_sk_ad_network_conversion_value_schema_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerSkAdNetworkConversionValueSchemaOperation.new
                 yield op
@@ -1096,12 +1095,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerSkAdNetworkConversionValueSchemaOperation.new
               end
             end
-            
+
             # Create a new CustomerUserAccessInvitationOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerUserAccessInvitationOperation] the operation
             def self.customer_user_access_invitation
-              require "google/ads/google_ads/v20/services/customer_user_access_invitation_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_user_access_invitation_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerUserAccessInvitationOperation.new
                 yield op
@@ -1110,12 +1109,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerUserAccessInvitationOperation.new
               end
             end
-            
+
             # Create a new CustomerUserAccessOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::CustomerUserAccessOperation] the operation
             def self.customer_user_access
-              require "google/ads/google_ads/v20/services/customer_user_access_service_pb.rb"
+              require "google/ads/google_ads/v20/services/customer_user_access_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::CustomerUserAccessOperation.new
                 yield op
@@ -1124,12 +1123,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::CustomerUserAccessOperation.new
               end
             end
-            
+
             # Create a new OfflineUserDataJobOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::OfflineUserDataJobOperation] the operation
             def self.offline_user_data_job
-              require "google/ads/google_ads/v20/services/offline_user_data_job_service_pb.rb"
+              require "google/ads/google_ads/v20/services/offline_user_data_job_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::OfflineUserDataJobOperation.new
                 yield op
@@ -1138,12 +1137,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::OfflineUserDataJobOperation.new
               end
             end
-            
+
             # Create a new ApplyRecommendationOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::ApplyRecommendationOperation] the operation
             def self.apply_recommendation
-              require "google/ads/google_ads/v20/services/recommendation_service_pb.rb"
+              require "google/ads/google_ads/v20/services/recommendation_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::ApplyRecommendationOperation.new
                 yield op
@@ -1152,12 +1151,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::ApplyRecommendationOperation.new
               end
             end
-            
+
             # Create a new DismissRecommendationOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::DismissRecommendationRequest::DismissRecommendationOperation] the operation
             def self.dismiss_recommendation
-              require "google/ads/google_ads/v20/services/recommendation_service_pb.rb"
+              require "google/ads/google_ads/v20/services/recommendation_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::DismissRecommendationRequest::DismissRecommendationOperation.new
                 yield op
@@ -1166,12 +1165,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::DismissRecommendationRequest::DismissRecommendationOperation.new
               end
             end
-            
+
             # Create a new UserDataOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::UserDataOperation] the operation
             def self.user_data
-              require "google/ads/google_ads/v20/services/user_data_service_pb.rb"
+              require "google/ads/google_ads/v20/services/user_data_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::UserDataOperation.new
                 yield op
@@ -1180,12 +1179,12 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::UserDataOperation.new
               end
             end
-            
+
             # Create a new UserListCustomerTypeOperation
             #
             # @return [Google::Ads::GoogleAds::V20::Services::UserListCustomerTypeOperation] the operation
             def self.user_list_customer_type
-              require "google/ads/google_ads/v20/services/user_list_customer_type_service_pb.rb"
+              require "google/ads/google_ads/v20/services/user_list_customer_type_service_pb"
               if block_given?
                 op = Google::Ads::GoogleAds::V20::Services::UserListCustomerTypeOperation.new
                 yield op
@@ -1194,7 +1193,6 @@ module Google
                 Google::Ads::GoogleAds::V20::Services::UserListCustomerTypeOperation.new
               end
             end
-            
 
             # Get a reference module containing convenience methods for creating
             # resources
@@ -1221,7 +1219,6 @@ module Google
             end
 
             module CreateResource
-              
               # A convenience method for creating an AccountBudgetProposalOperation instance with
               # its "create" field prepopulated with an AccountBudgetProposal instance.
               #
@@ -1235,20 +1232,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AccountBudgetProposalOperation] instance that will create the resource
-              def self.account_budget_proposal(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/account_budget_proposal_service_pb.rb"
+              def self.account_budget_proposal(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/account_budget_proposal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AccountBudgetProposalOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.account_budget_proposal(&blk)
+                  Factories::V20::Resources.account_budget_proposal(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.account_budget_proposal
+                  Factories::V20::Resources.account_budget_proposal
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAdLabelOperation instance with
               # its "create" field prepopulated with an AdGroupAdLabel instance.
               #
@@ -1262,20 +1259,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAdLabelOperation] instance that will create the resource
-              def self.ad_group_ad_label(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_ad_label_service_pb.rb"
+              def self.ad_group_ad_label(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_ad_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdLabelOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_ad_label(&blk)
+                  Factories::V20::Resources.ad_group_ad_label(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_ad_label
+                  Factories::V20::Resources.ad_group_ad_label
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAdOperation instance with
               # its "create" field prepopulated with an AdGroupAd instance.
               #
@@ -1289,20 +1286,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation] instance that will create the resource
-              def self.ad_group_ad(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_ad_service_pb.rb"
+              def self.ad_group_ad(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_ad_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_ad(&blk)
+                  Factories::V20::Resources.ad_group_ad(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_ad
+                  Factories::V20::Resources.ad_group_ad
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAssetOperation instance with
               # its "create" field prepopulated with an AdGroupAsset instance.
               #
@@ -1316,20 +1313,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation] instance that will create the resource
-              def self.ad_group_asset(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_asset_service_pb.rb"
+              def self.ad_group_asset(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_asset(&blk)
+                  Factories::V20::Resources.ad_group_asset(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_asset
+                  Factories::V20::Resources.ad_group_asset
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAssetSetOperation instance with
               # its "create" field prepopulated with an AdGroupAssetSet instance.
               #
@@ -1343,20 +1340,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAssetSetOperation] instance that will create the resource
-              def self.ad_group_asset_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_asset_set_service_pb.rb"
+              def self.ad_group_asset_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_asset_set(&blk)
+                  Factories::V20::Resources.ad_group_asset_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_asset_set
+                  Factories::V20::Resources.ad_group_asset_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupBidModifierOperation instance with
               # its "create" field prepopulated with an AdGroupBidModifier instance.
               #
@@ -1370,20 +1367,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation] instance that will create the resource
-              def self.ad_group_bid_modifier(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb.rb"
+              def self.ad_group_bid_modifier(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_bid_modifier(&blk)
+                  Factories::V20::Resources.ad_group_bid_modifier(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_bid_modifier
+                  Factories::V20::Resources.ad_group_bid_modifier
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionCustomizerOperation instance with
               # its "create" field prepopulated with an AdGroupCriterionCustomizer instance.
               #
@@ -1397,20 +1394,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionCustomizerOperation] instance that will create the resource
-              def self.ad_group_criterion_customizer(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_customizer_service_pb.rb"
+              def self.ad_group_criterion_customizer(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_criterion_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionCustomizerOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_criterion_customizer(&blk)
+                  Factories::V20::Resources.ad_group_criterion_customizer(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_criterion_customizer
+                  Factories::V20::Resources.ad_group_criterion_customizer
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionLabelOperation instance with
               # its "create" field prepopulated with an AdGroupCriterionLabel instance.
               #
@@ -1424,20 +1421,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionLabelOperation] instance that will create the resource
-              def self.ad_group_criterion_label(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_label_service_pb.rb"
+              def self.ad_group_criterion_label(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_criterion_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionLabelOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_criterion_label(&blk)
+                  Factories::V20::Resources.ad_group_criterion_label(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_criterion_label
+                  Factories::V20::Resources.ad_group_criterion_label
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionOperation instance with
               # its "create" field prepopulated with an AdGroupCriterion instance.
               #
@@ -1451,20 +1448,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation] instance that will create the resource
-              def self.ad_group_criterion(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb.rb"
+              def self.ad_group_criterion(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_criterion(&blk)
+                  Factories::V20::Resources.ad_group_criterion(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_criterion
+                  Factories::V20::Resources.ad_group_criterion
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCustomizerOperation instance with
               # its "create" field prepopulated with an AdGroupCustomizer instance.
               #
@@ -1478,20 +1475,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCustomizerOperation] instance that will create the resource
-              def self.ad_group_customizer(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_customizer_service_pb.rb"
+              def self.ad_group_customizer(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCustomizerOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_customizer(&blk)
+                  Factories::V20::Resources.ad_group_customizer(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_customizer
+                  Factories::V20::Resources.ad_group_customizer
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupLabelOperation instance with
               # its "create" field prepopulated with an AdGroupLabel instance.
               #
@@ -1505,20 +1502,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupLabelOperation] instance that will create the resource
-              def self.ad_group_label(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_label_service_pb.rb"
+              def self.ad_group_label(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupLabelOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group_label(&blk)
+                  Factories::V20::Resources.ad_group_label(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group_label
+                  Factories::V20::Resources.ad_group_label
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdGroupOperation instance with
               # its "create" field prepopulated with an AdGroup instance.
               #
@@ -1532,20 +1529,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupOperation] instance that will create the resource
-              def self.ad_group(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_service_pb.rb"
+              def self.ad_group(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_group(&blk)
+                  Factories::V20::Resources.ad_group(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_group
+                  Factories::V20::Resources.ad_group
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AdParameterOperation instance with
               # its "create" field prepopulated with an AdParameter instance.
               #
@@ -1559,20 +1556,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AdParameterOperation] instance that will create the resource
-              def self.ad_parameter(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/ad_parameter_service_pb.rb"
+              def self.ad_parameter(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/ad_parameter_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdParameterOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.ad_parameter(&blk)
+                  Factories::V20::Resources.ad_parameter(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.ad_parameter
+                  Factories::V20::Resources.ad_parameter
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupAssetOperation instance with
               # its "create" field prepopulated with an AssetGroupAsset instance.
               #
@@ -1586,20 +1583,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation] instance that will create the resource
-              def self.asset_group_asset(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_asset_service_pb.rb"
+              def self.asset_group_asset(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_group_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset_group_asset(&blk)
+                  Factories::V20::Resources.asset_group_asset(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset_group_asset
+                  Factories::V20::Resources.asset_group_asset
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupListingGroupFilterOperation instance with
               # its "create" field prepopulated with an AssetGroupListingGroupFilter instance.
               #
@@ -1613,20 +1610,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation] instance that will create the resource
-              def self.asset_group_listing_group_filter(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb.rb"
+              def self.asset_group_listing_group_filter(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset_group_listing_group_filter(&blk)
+                  Factories::V20::Resources.asset_group_listing_group_filter(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset_group_listing_group_filter
+                  Factories::V20::Resources.asset_group_listing_group_filter
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupOperation instance with
               # its "create" field prepopulated with an AssetGroup instance.
               #
@@ -1640,20 +1637,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupOperation] instance that will create the resource
-              def self.asset_group(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_service_pb.rb"
+              def self.asset_group(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset_group(&blk)
+                  Factories::V20::Resources.asset_group(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset_group
+                  Factories::V20::Resources.asset_group
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupSignalOperation instance with
               # its "create" field prepopulated with an AssetGroupSignal instance.
               #
@@ -1667,20 +1664,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupSignalOperation] instance that will create the resource
-              def self.asset_group_signal(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_signal_service_pb.rb"
+              def self.asset_group_signal(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_group_signal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupSignalOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset_group_signal(&blk)
+                  Factories::V20::Resources.asset_group_signal(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset_group_signal
+                  Factories::V20::Resources.asset_group_signal
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetOperation instance with
               # its "create" field prepopulated with an Asset instance.
               #
@@ -1694,20 +1691,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetOperation] instance that will create the resource
-              def self.asset(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_service_pb.rb"
+              def self.asset(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset(&blk)
+                  Factories::V20::Resources.asset(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset
+                  Factories::V20::Resources.asset
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetSetAssetOperation instance with
               # its "create" field prepopulated with an AssetSetAsset instance.
               #
@@ -1721,20 +1718,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetSetAssetOperation] instance that will create the resource
-              def self.asset_set_asset(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_set_asset_service_pb.rb"
+              def self.asset_set_asset(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_set_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetAssetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset_set_asset(&blk)
+                  Factories::V20::Resources.asset_set_asset(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset_set_asset
+                  Factories::V20::Resources.asset_set_asset
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AssetSetOperation instance with
               # its "create" field prepopulated with an AssetSet instance.
               #
@@ -1748,20 +1745,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AssetSetOperation] instance that will create the resource
-              def self.asset_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/asset_set_service_pb.rb"
+              def self.asset_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.asset_set(&blk)
+                  Factories::V20::Resources.asset_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.asset_set
+                  Factories::V20::Resources.asset_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an AudienceOperation instance with
               # its "create" field prepopulated with an Audience instance.
               #
@@ -1775,20 +1772,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::AudienceOperation] instance that will create the resource
-              def self.audience(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/audience_service_pb.rb"
+              def self.audience(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/audience_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AudienceOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.audience(&blk)
+                  Factories::V20::Resources.audience(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.audience
+                  Factories::V20::Resources.audience
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an BiddingDataExclusionOperation instance with
               # its "create" field prepopulated with an BiddingDataExclusion instance.
               #
@@ -1802,20 +1799,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation] instance that will create the resource
-              def self.bidding_data_exclusion(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb.rb"
+              def self.bidding_data_exclusion(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.bidding_data_exclusion(&blk)
+                  Factories::V20::Resources.bidding_data_exclusion(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.bidding_data_exclusion
+                  Factories::V20::Resources.bidding_data_exclusion
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an BiddingSeasonalityAdjustmentOperation instance with
               # its "create" field prepopulated with an BiddingSeasonalityAdjustment instance.
               #
@@ -1829,20 +1826,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation] instance that will create the resource
-              def self.bidding_seasonality_adjustment(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb.rb"
+              def self.bidding_seasonality_adjustment(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.bidding_seasonality_adjustment(&blk)
+                  Factories::V20::Resources.bidding_seasonality_adjustment(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.bidding_seasonality_adjustment
+                  Factories::V20::Resources.bidding_seasonality_adjustment
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an BiddingStrategyOperation instance with
               # its "create" field prepopulated with an BiddingStrategy instance.
               #
@@ -1856,20 +1853,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation] instance that will create the resource
-              def self.bidding_strategy(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/bidding_strategy_service_pb.rb"
+              def self.bidding_strategy(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/bidding_strategy_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.bidding_strategy(&blk)
+                  Factories::V20::Resources.bidding_strategy(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.bidding_strategy
+                  Factories::V20::Resources.bidding_strategy
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignAssetOperation instance with
               # its "create" field prepopulated with an CampaignAsset instance.
               #
@@ -1883,20 +1880,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation] instance that will create the resource
-              def self.campaign_asset(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_asset_service_pb.rb"
+              def self.campaign_asset(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_asset(&blk)
+                  Factories::V20::Resources.campaign_asset(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_asset
+                  Factories::V20::Resources.campaign_asset
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignAssetSetOperation instance with
               # its "create" field prepopulated with an CampaignAssetSet instance.
               #
@@ -1910,20 +1907,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignAssetSetOperation] instance that will create the resource
-              def self.campaign_asset_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_asset_set_service_pb.rb"
+              def self.campaign_asset_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_asset_set(&blk)
+                  Factories::V20::Resources.campaign_asset_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_asset_set
+                  Factories::V20::Resources.campaign_asset_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignBidModifierOperation instance with
               # its "create" field prepopulated with an CampaignBidModifier instance.
               #
@@ -1937,20 +1934,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation] instance that will create the resource
-              def self.campaign_bid_modifier(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb.rb"
+              def self.campaign_bid_modifier(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_bid_modifier(&blk)
+                  Factories::V20::Resources.campaign_bid_modifier(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_bid_modifier
+                  Factories::V20::Resources.campaign_bid_modifier
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignBudgetOperation instance with
               # its "create" field prepopulated with an CampaignBudget instance.
               #
@@ -1964,20 +1961,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation] instance that will create the resource
-              def self.campaign_budget(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_budget_service_pb.rb"
+              def self.campaign_budget(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_budget_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_budget(&blk)
+                  Factories::V20::Resources.campaign_budget(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_budget
+                  Factories::V20::Resources.campaign_budget
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignCriterionOperation instance with
               # its "create" field prepopulated with an CampaignCriterion instance.
               #
@@ -1991,20 +1988,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation] instance that will create the resource
-              def self.campaign_criterion(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_criterion_service_pb.rb"
+              def self.campaign_criterion(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_criterion(&blk)
+                  Factories::V20::Resources.campaign_criterion(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_criterion
+                  Factories::V20::Resources.campaign_criterion
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignCustomizerOperation instance with
               # its "create" field prepopulated with an CampaignCustomizer instance.
               #
@@ -2018,20 +2015,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignCustomizerOperation] instance that will create the resource
-              def self.campaign_customizer(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_customizer_service_pb.rb"
+              def self.campaign_customizer(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCustomizerOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_customizer(&blk)
+                  Factories::V20::Resources.campaign_customizer(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_customizer
+                  Factories::V20::Resources.campaign_customizer
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignDraftOperation instance with
               # its "create" field prepopulated with an CampaignDraft instance.
               #
@@ -2045,20 +2042,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation] instance that will create the resource
-              def self.campaign_draft(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_draft_service_pb.rb"
+              def self.campaign_draft(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_draft_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_draft(&blk)
+                  Factories::V20::Resources.campaign_draft(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_draft
+                  Factories::V20::Resources.campaign_draft
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignGroupOperation instance with
               # its "create" field prepopulated with an CampaignGroup instance.
               #
@@ -2072,20 +2069,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation] instance that will create the resource
-              def self.campaign_group(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_group_service_pb.rb"
+              def self.campaign_group(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_group(&blk)
+                  Factories::V20::Resources.campaign_group(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_group
+                  Factories::V20::Resources.campaign_group
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignLabelOperation instance with
               # its "create" field prepopulated with an CampaignLabel instance.
               #
@@ -2099,20 +2096,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignLabelOperation] instance that will create the resource
-              def self.campaign_label(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_label_service_pb.rb"
+              def self.campaign_label(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLabelOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_label(&blk)
+                  Factories::V20::Resources.campaign_label(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_label
+                  Factories::V20::Resources.campaign_label
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignOperation instance with
               # its "create" field prepopulated with an Campaign instance.
               #
@@ -2126,20 +2123,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignOperation] instance that will create the resource
-              def self.campaign(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_service_pb.rb"
+              def self.campaign(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign(&blk)
+                  Factories::V20::Resources.campaign(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign
+                  Factories::V20::Resources.campaign
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignSharedSetOperation instance with
               # its "create" field prepopulated with an CampaignSharedSet instance.
               #
@@ -2153,20 +2150,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignSharedSetOperation] instance that will create the resource
-              def self.campaign_shared_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_shared_set_service_pb.rb"
+              def self.campaign_shared_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_shared_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignSharedSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_shared_set(&blk)
+                  Factories::V20::Resources.campaign_shared_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_shared_set
+                  Factories::V20::Resources.campaign_shared_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an ConversionActionOperation instance with
               # its "create" field prepopulated with an ConversionAction instance.
               #
@@ -2180,20 +2177,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionActionOperation] instance that will create the resource
-              def self.conversion_action(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/conversion_action_service_pb.rb"
+              def self.conversion_action(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/conversion_action_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionActionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.conversion_action(&blk)
+                  Factories::V20::Resources.conversion_action(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.conversion_action
+                  Factories::V20::Resources.conversion_action
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an ConversionCustomVariableOperation instance with
               # its "create" field prepopulated with an ConversionCustomVariable instance.
               #
@@ -2207,20 +2204,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation] instance that will create the resource
-              def self.conversion_custom_variable(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb.rb"
+              def self.conversion_custom_variable(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.conversion_custom_variable(&blk)
+                  Factories::V20::Resources.conversion_custom_variable(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.conversion_custom_variable
+                  Factories::V20::Resources.conversion_custom_variable
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an ConversionValueRuleOperation instance with
               # its "create" field prepopulated with an ConversionValueRule instance.
               #
@@ -2234,20 +2231,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation] instance that will create the resource
-              def self.conversion_value_rule(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb.rb"
+              def self.conversion_value_rule(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.conversion_value_rule(&blk)
+                  Factories::V20::Resources.conversion_value_rule(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.conversion_value_rule
+                  Factories::V20::Resources.conversion_value_rule
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an ConversionValueRuleSetOperation instance with
               # its "create" field prepopulated with an ConversionValueRuleSet instance.
               #
@@ -2261,20 +2258,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation] instance that will create the resource
-              def self.conversion_value_rule_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb.rb"
+              def self.conversion_value_rule_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.conversion_value_rule_set(&blk)
+                  Factories::V20::Resources.conversion_value_rule_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.conversion_value_rule_set
+                  Factories::V20::Resources.conversion_value_rule_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomConversionGoalOperation instance with
               # its "create" field prepopulated with an CustomConversionGoal instance.
               #
@@ -2288,20 +2285,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation] instance that will create the resource
-              def self.custom_conversion_goal(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb.rb"
+              def self.custom_conversion_goal(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.custom_conversion_goal(&blk)
+                  Factories::V20::Resources.custom_conversion_goal(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.custom_conversion_goal
+                  Factories::V20::Resources.custom_conversion_goal
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerAssetOperation instance with
               # its "create" field prepopulated with an CustomerAsset instance.
               #
@@ -2315,20 +2312,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation] instance that will create the resource
-              def self.customer_asset(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_asset_service_pb.rb"
+              def self.customer_asset(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_asset(&blk)
+                  Factories::V20::Resources.customer_asset(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_asset
+                  Factories::V20::Resources.customer_asset
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerCustomizerOperation instance with
               # its "create" field prepopulated with an CustomerCustomizer instance.
               #
@@ -2342,20 +2339,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerCustomizerOperation] instance that will create the resource
-              def self.customer_customizer(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_customizer_service_pb.rb"
+              def self.customer_customizer(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerCustomizerOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_customizer(&blk)
+                  Factories::V20::Resources.customer_customizer(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_customizer
+                  Factories::V20::Resources.customer_customizer
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerLabelOperation instance with
               # its "create" field prepopulated with an CustomerLabel instance.
               #
@@ -2369,20 +2366,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerLabelOperation] instance that will create the resource
-              def self.customer_label(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_label_service_pb.rb"
+              def self.customer_label(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLabelOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_label(&blk)
+                  Factories::V20::Resources.customer_label(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_label
+                  Factories::V20::Resources.customer_label
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerNegativeCriterionOperation instance with
               # its "create" field prepopulated with an CustomerNegativeCriterion instance.
               #
@@ -2396,20 +2393,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerNegativeCriterionOperation] instance that will create the resource
-              def self.customer_negative_criterion(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_negative_criterion_service_pb.rb"
+              def self.customer_negative_criterion(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_negative_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerNegativeCriterionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_negative_criterion(&blk)
+                  Factories::V20::Resources.customer_negative_criterion(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_negative_criterion
+                  Factories::V20::Resources.customer_negative_criterion
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomizerAttributeOperation instance with
               # its "create" field prepopulated with an CustomizerAttribute instance.
               #
@@ -2423,20 +2420,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomizerAttributeOperation] instance that will create the resource
-              def self.customizer_attribute(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customizer_attribute_service_pb.rb"
+              def self.customizer_attribute(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customizer_attribute_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomizerAttributeOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customizer_attribute(&blk)
+                  Factories::V20::Resources.customizer_attribute(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customizer_attribute
+                  Factories::V20::Resources.customizer_attribute
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an ExperimentArmOperation instance with
               # its "create" field prepopulated with an ExperimentArm instance.
               #
@@ -2450,20 +2447,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation] instance that will create the resource
-              def self.experiment_arm(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/experiment_arm_service_pb.rb"
+              def self.experiment_arm(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/experiment_arm_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.experiment_arm(&blk)
+                  Factories::V20::Resources.experiment_arm(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.experiment_arm
+                  Factories::V20::Resources.experiment_arm
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an ExperimentOperation instance with
               # its "create" field prepopulated with an Experiment instance.
               #
@@ -2477,20 +2474,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::ExperimentOperation] instance that will create the resource
-              def self.experiment(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/experiment_service_pb.rb"
+              def self.experiment(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/experiment_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.experiment(&blk)
+                  Factories::V20::Resources.experiment(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.experiment
+                  Factories::V20::Resources.experiment
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanAdGroupKeywordOperation instance with
               # its "create" field prepopulated with an KeywordPlanAdGroupKeyword instance.
               #
@@ -2504,20 +2501,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation] instance that will create the resource
-              def self.keyword_plan_ad_group_keyword(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb.rb"
+              def self.keyword_plan_ad_group_keyword(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.keyword_plan_ad_group_keyword(&blk)
+                  Factories::V20::Resources.keyword_plan_ad_group_keyword(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.keyword_plan_ad_group_keyword
+                  Factories::V20::Resources.keyword_plan_ad_group_keyword
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanAdGroupOperation instance with
               # its "create" field prepopulated with an KeywordPlanAdGroup instance.
               #
@@ -2531,20 +2528,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation] instance that will create the resource
-              def self.keyword_plan_ad_group(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb.rb"
+              def self.keyword_plan_ad_group(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.keyword_plan_ad_group(&blk)
+                  Factories::V20::Resources.keyword_plan_ad_group(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.keyword_plan_ad_group
+                  Factories::V20::Resources.keyword_plan_ad_group
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanCampaignKeywordOperation instance with
               # its "create" field prepopulated with an KeywordPlanCampaignKeyword instance.
               #
@@ -2558,20 +2555,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation] instance that will create the resource
-              def self.keyword_plan_campaign_keyword(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb.rb"
+              def self.keyword_plan_campaign_keyword(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.keyword_plan_campaign_keyword(&blk)
+                  Factories::V20::Resources.keyword_plan_campaign_keyword(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.keyword_plan_campaign_keyword
+                  Factories::V20::Resources.keyword_plan_campaign_keyword
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanCampaignOperation instance with
               # its "create" field prepopulated with an KeywordPlanCampaign instance.
               #
@@ -2585,20 +2582,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation] instance that will create the resource
-              def self.keyword_plan_campaign(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb.rb"
+              def self.keyword_plan_campaign(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.keyword_plan_campaign(&blk)
+                  Factories::V20::Resources.keyword_plan_campaign(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.keyword_plan_campaign
+                  Factories::V20::Resources.keyword_plan_campaign
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanOperation instance with
               # its "create" field prepopulated with an KeywordPlan instance.
               #
@@ -2612,20 +2609,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation] instance that will create the resource
-              def self.keyword_plan(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_service_pb.rb"
+              def self.keyword_plan(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/keyword_plan_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.keyword_plan(&blk)
+                  Factories::V20::Resources.keyword_plan(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.keyword_plan
+                  Factories::V20::Resources.keyword_plan
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an LabelOperation instance with
               # its "create" field prepopulated with an Label instance.
               #
@@ -2639,20 +2636,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::LabelOperation] instance that will create the resource
-              def self.label(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/label_service_pb.rb"
+              def self.label(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::LabelOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.label(&blk)
+                  Factories::V20::Resources.label(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.label
+                  Factories::V20::Resources.label
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an RecommendationSubscriptionOperation instance with
               # its "create" field prepopulated with an RecommendationSubscription instance.
               #
@@ -2666,20 +2663,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation] instance that will create the resource
-              def self.recommendation_subscription(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb.rb"
+              def self.recommendation_subscription(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.recommendation_subscription(&blk)
+                  Factories::V20::Resources.recommendation_subscription(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.recommendation_subscription
+                  Factories::V20::Resources.recommendation_subscription
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an RemarketingActionOperation instance with
               # its "create" field prepopulated with an RemarketingAction instance.
               #
@@ -2693,20 +2690,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation] instance that will create the resource
-              def self.remarketing_action(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/remarketing_action_service_pb.rb"
+              def self.remarketing_action(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/remarketing_action_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.remarketing_action(&blk)
+                  Factories::V20::Resources.remarketing_action(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.remarketing_action
+                  Factories::V20::Resources.remarketing_action
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an SharedCriterionOperation instance with
               # its "create" field prepopulated with an SharedCriterion instance.
               #
@@ -2720,20 +2717,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::SharedCriterionOperation] instance that will create the resource
-              def self.shared_criterion(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/shared_criterion_service_pb.rb"
+              def self.shared_criterion(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/shared_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::SharedCriterionOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.shared_criterion(&blk)
+                  Factories::V20::Resources.shared_criterion(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.shared_criterion
+                  Factories::V20::Resources.shared_criterion
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an SharedSetOperation instance with
               # its "create" field prepopulated with an SharedSet instance.
               #
@@ -2747,20 +2744,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::SharedSetOperation] instance that will create the resource
-              def self.shared_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/shared_set_service_pb.rb"
+              def self.shared_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/shared_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::SharedSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.shared_set(&blk)
+                  Factories::V20::Resources.shared_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.shared_set
+                  Factories::V20::Resources.shared_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an UserListOperation instance with
               # its "create" field prepopulated with an UserList instance.
               #
@@ -2774,20 +2771,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::UserListOperation] instance that will create the resource
-              def self.user_list(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/user_list_service_pb.rb"
+              def self.user_list(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/user_list_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::UserListOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.user_list(&blk)
+                  Factories::V20::Resources.user_list(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.user_list
+                  Factories::V20::Resources.user_list
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an BatchJobOperation instance with
               # its "create" field prepopulated with an BatchJob instance.
               #
@@ -2801,20 +2798,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::BatchJobOperation] instance that will create the resource
-              def self.batch_job(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/batch_job_service_pb.rb"
+              def self.batch_job(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/batch_job_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BatchJobOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.batch_job(&blk)
+                  Factories::V20::Resources.batch_job(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.batch_job
+                  Factories::V20::Resources.batch_job
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an BillingSetupOperation instance with
               # its "create" field prepopulated with an BillingSetup instance.
               #
@@ -2828,20 +2825,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::BillingSetupOperation] instance that will create the resource
-              def self.billing_setup(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/billing_setup_service_pb.rb"
+              def self.billing_setup(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/billing_setup_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BillingSetupOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.billing_setup(&blk)
+                  Factories::V20::Resources.billing_setup(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.billing_setup
+                  Factories::V20::Resources.billing_setup
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CampaignLifecycleGoalOperation instance with
               # its "create" field prepopulated with an CampaignLifecycleGoal instance.
               #
@@ -2855,20 +2852,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation] instance that will create the resource
-              def self.campaign_lifecycle_goal(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb.rb"
+              def self.campaign_lifecycle_goal(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.campaign_lifecycle_goal(&blk)
+                  Factories::V20::Resources.campaign_lifecycle_goal(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.campaign_lifecycle_goal
+                  Factories::V20::Resources.campaign_lifecycle_goal
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomAudienceOperation instance with
               # its "create" field prepopulated with an CustomAudience instance.
               #
@@ -2882,20 +2879,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation] instance that will create the resource
-              def self.custom_audience(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/custom_audience_service_pb.rb"
+              def self.custom_audience(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/custom_audience_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.custom_audience(&blk)
+                  Factories::V20::Resources.custom_audience(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.custom_audience
+                  Factories::V20::Resources.custom_audience
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomInterestOperation instance with
               # its "create" field prepopulated with an CustomInterest instance.
               #
@@ -2909,20 +2906,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomInterestOperation] instance that will create the resource
-              def self.custom_interest(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/custom_interest_service_pb.rb"
+              def self.custom_interest(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/custom_interest_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomInterestOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.custom_interest(&blk)
+                  Factories::V20::Resources.custom_interest(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.custom_interest
+                  Factories::V20::Resources.custom_interest
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerAssetSetOperation instance with
               # its "create" field prepopulated with an CustomerAssetSet instance.
               #
@@ -2936,20 +2933,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerAssetSetOperation] instance that will create the resource
-              def self.customer_asset_set(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_asset_set_service_pb.rb"
+              def self.customer_asset_set(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetSetOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_asset_set(&blk)
+                  Factories::V20::Resources.customer_asset_set(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_asset_set
+                  Factories::V20::Resources.customer_asset_set
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerClientLinkOperation instance with
               # its "create" field prepopulated with an CustomerClientLink instance.
               #
@@ -2963,20 +2960,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation] instance that will create the resource
-              def self.customer_client_link(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_client_link_service_pb.rb"
+              def self.customer_client_link(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_client_link_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_client_link(&blk)
+                  Factories::V20::Resources.customer_client_link(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_client_link
+                  Factories::V20::Resources.customer_client_link
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerLifecycleGoalOperation instance with
               # its "create" field prepopulated with an CustomerLifecycleGoal instance.
               #
@@ -2990,20 +2987,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation] instance that will create the resource
-              def self.customer_lifecycle_goal(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb.rb"
+              def self.customer_lifecycle_goal(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_lifecycle_goal(&blk)
+                  Factories::V20::Resources.customer_lifecycle_goal(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_lifecycle_goal
+                  Factories::V20::Resources.customer_lifecycle_goal
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an CustomerUserAccessInvitationOperation instance with
               # its "create" field prepopulated with an CustomerUserAccessInvitation instance.
               #
@@ -3017,20 +3014,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerUserAccessInvitationOperation] instance that will create the resource
-              def self.customer_user_access_invitation(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/customer_user_access_invitation_service_pb.rb"
+              def self.customer_user_access_invitation(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/customer_user_access_invitation_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerUserAccessInvitationOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.customer_user_access_invitation(&blk)
+                  Factories::V20::Resources.customer_user_access_invitation(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.customer_user_access_invitation
+                  Factories::V20::Resources.customer_user_access_invitation
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an OfflineUserDataJobOperation instance with
               # its "create" field prepopulated with an UserData instance.
               #
@@ -3044,20 +3041,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::OfflineUserDataJobOperation] instance that will create the resource
-              def self.offline_user_data_job(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/offline_user_data_job_service_pb.rb"
+              def self.offline_user_data_job(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/offline_user_data_job_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::OfflineUserDataJobOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.user_data(&blk)
+                  Factories::V20::Resources.user_data(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.user_data
+                  Factories::V20::Resources.user_data
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an UserDataOperation instance with
               # its "create" field prepopulated with an UserData instance.
               #
@@ -3071,20 +3068,20 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::UserDataOperation] instance that will create the resource
-              def self.user_data(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/user_data_service_pb.rb"
+              def self.user_data(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/user_data_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::UserDataOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.user_data(&blk)
+                  Factories::V20::Resources.user_data(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.user_data
+                  Factories::V20::Resources.user_data
                 end
 
                 op
               end
-              
+
               # A convenience method for creating an UserListCustomerTypeOperation instance with
               # its "create" field prepopulated with an UserListCustomerType instance.
               #
@@ -3098,24 +3095,22 @@ module Google
               #     a resource instance to be used for creation in this operation.
               #
               # @return [Google::Ads::GoogleAds::V20::Services::UserListCustomerTypeOperation] instance that will create the resource
-              def self.user_list_customer_type(res=nil, &blk)
-                require "google/ads/google_ads/v20/services/user_list_customer_type_service_pb.rb"
+              def self.user_list_customer_type(res = nil, &blk)
+                require "google/ads/google_ads/v20/services/user_list_customer_type_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::UserListCustomerTypeOperation.new
-                if res != nil
-                  op["create"] = res
+                op["create"] = if !res.nil?
+                  res
                 elsif !blk.nil?
-                  op["create"] = Factories::V20::Resources.user_list_customer_type(&blk)
+                  Factories::V20::Resources.user_list_customer_type(&blk)
                 else
-                  op["create"] = Factories::V20::Resources.user_list_customer_type
+                  Factories::V20::Resources.user_list_customer_type
                 end
 
                 op
               end
-              
             end
 
             module UpdateResource
-              
               # A convenience method for creating an AccountLinkOperation instance with
               # its "update" field prepopulated with an AccountLink instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3130,7 +3125,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AccountLinkOperation] the operation instance to update the resource
               def self.account_link(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/account_link_service_pb.rb"
+                require "google/ads/google_ads/v20/services/account_link_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AccountLink
                   resource_or_path
@@ -3140,11 +3135,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AccountLink === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AccountLink === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AccountLinkOperation.new
@@ -3152,7 +3149,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAdOperation instance with
               # its "update" field prepopulated with an AdGroupAd instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3167,7 +3164,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation] the operation instance to update the resource
               def self.ad_group_ad(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_ad_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_ad_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AdGroupAd
                   resource_or_path
@@ -3177,11 +3174,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AdGroupAd === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AdGroupAd === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation.new
@@ -3189,7 +3188,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAssetOperation instance with
               # its "update" field prepopulated with an AdGroupAsset instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3204,7 +3203,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation] the operation instance to update the resource
               def self.ad_group_asset(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_asset_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AdGroupAsset
                   resource_or_path
@@ -3214,11 +3213,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AdGroupAsset === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AdGroupAsset === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation.new
@@ -3226,7 +3227,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdGroupBidModifierOperation instance with
               # its "update" field prepopulated with an AdGroupBidModifier instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3241,7 +3242,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation] the operation instance to update the resource
               def self.ad_group_bid_modifier(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AdGroupBidModifier
                   resource_or_path
@@ -3251,11 +3252,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AdGroupBidModifier === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AdGroupBidModifier === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation.new
@@ -3263,7 +3266,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionOperation instance with
               # its "update" field prepopulated with an AdGroupCriterion instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3278,7 +3281,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation] the operation instance to update the resource
               def self.ad_group_criterion(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AdGroupCriterion
                   resource_or_path
@@ -3288,11 +3291,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AdGroupCriterion === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AdGroupCriterion === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation.new
@@ -3300,7 +3305,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdGroupOperation instance with
               # its "update" field prepopulated with an AdGroup instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3315,7 +3320,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdGroupOperation] the operation instance to update the resource
               def self.ad_group(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AdGroup
                   resource_or_path
@@ -3325,11 +3330,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AdGroup === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AdGroup === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupOperation.new
@@ -3337,7 +3344,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdParameterOperation instance with
               # its "update" field prepopulated with an AdParameter instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3352,7 +3359,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdParameterOperation] the operation instance to update the resource
               def self.ad_parameter(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_parameter_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_parameter_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AdParameter
                   resource_or_path
@@ -3362,11 +3369,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AdParameter === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AdParameter === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdParameterOperation.new
@@ -3374,7 +3383,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AdOperation instance with
               # its "update" field prepopulated with an Ad instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3389,7 +3398,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AdOperation] the operation instance to update the resource
               def self.ad(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/ad_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Ad
                   resource_or_path
@@ -3399,11 +3408,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Ad === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Ad === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AdOperation.new
@@ -3411,7 +3422,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupAssetOperation instance with
               # its "update" field prepopulated with an AssetGroupAsset instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3426,7 +3437,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation] the operation instance to update the resource
               def self.asset_group_asset(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_asset_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AssetGroupAsset
                   resource_or_path
@@ -3436,11 +3447,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AssetGroupAsset === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AssetGroupAsset === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation.new
@@ -3448,7 +3461,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupListingGroupFilterOperation instance with
               # its "update" field prepopulated with an AssetGroupListingGroupFilter instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3463,7 +3476,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation] the operation instance to update the resource
               def self.asset_group_listing_group_filter(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AssetGroupListingGroupFilter
                   resource_or_path
@@ -3473,11 +3486,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AssetGroupListingGroupFilter === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AssetGroupListingGroupFilter === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation.new
@@ -3485,7 +3500,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupOperation instance with
               # its "update" field prepopulated with an AssetGroup instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3500,7 +3515,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AssetGroupOperation] the operation instance to update the resource
               def self.asset_group(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/asset_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AssetGroup
                   resource_or_path
@@ -3510,11 +3525,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AssetGroup === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AssetGroup === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupOperation.new
@@ -3522,7 +3539,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AssetOperation instance with
               # its "update" field prepopulated with an Asset instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3537,7 +3554,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AssetOperation] the operation instance to update the resource
               def self.asset(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Asset
                   resource_or_path
@@ -3547,11 +3564,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Asset === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Asset === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AssetOperation.new
@@ -3559,7 +3578,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AssetSetOperation instance with
               # its "update" field prepopulated with an AssetSet instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3574,7 +3593,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AssetSetOperation] the operation instance to update the resource
               def self.asset_set(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/asset_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_set_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::AssetSet
                   resource_or_path
@@ -3584,11 +3603,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::AssetSet === res
+                  unless Google::Ads::GoogleAds::V20::Resources::AssetSet === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetOperation.new
@@ -3596,7 +3617,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an AudienceOperation instance with
               # its "update" field prepopulated with an Audience instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3611,7 +3632,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::AudienceOperation] the operation instance to update the resource
               def self.audience(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/audience_service_pb.rb"
+                require "google/ads/google_ads/v20/services/audience_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Audience
                   resource_or_path
@@ -3621,11 +3642,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Audience === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Audience === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::AudienceOperation.new
@@ -3633,7 +3656,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an BiddingDataExclusionOperation instance with
               # its "update" field prepopulated with an BiddingDataExclusion instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3648,7 +3671,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation] the operation instance to update the resource
               def self.bidding_data_exclusion(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::BiddingDataExclusion
                   resource_or_path
@@ -3658,11 +3681,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::BiddingDataExclusion === res
+                  unless Google::Ads::GoogleAds::V20::Resources::BiddingDataExclusion === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation.new
@@ -3670,7 +3695,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an BiddingSeasonalityAdjustmentOperation instance with
               # its "update" field prepopulated with an BiddingSeasonalityAdjustment instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3685,7 +3710,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation] the operation instance to update the resource
               def self.bidding_seasonality_adjustment(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb.rb"
+                require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::BiddingSeasonalityAdjustment
                   resource_or_path
@@ -3695,11 +3720,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::BiddingSeasonalityAdjustment === res
+                  unless Google::Ads::GoogleAds::V20::Resources::BiddingSeasonalityAdjustment === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation.new
@@ -3707,7 +3734,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an BiddingStrategyOperation instance with
               # its "update" field prepopulated with an BiddingStrategy instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3722,7 +3749,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation] the operation instance to update the resource
               def self.bidding_strategy(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/bidding_strategy_service_pb.rb"
+                require "google/ads/google_ads/v20/services/bidding_strategy_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::BiddingStrategy
                   resource_or_path
@@ -3732,11 +3759,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::BiddingStrategy === res
+                  unless Google::Ads::GoogleAds::V20::Resources::BiddingStrategy === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation.new
@@ -3744,7 +3773,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignAssetOperation instance with
               # its "update" field prepopulated with an CampaignAsset instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3759,7 +3788,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation] the operation instance to update the resource
               def self.campaign_asset(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_asset_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignAsset
                   resource_or_path
@@ -3769,11 +3798,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignAsset === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignAsset === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation.new
@@ -3781,7 +3812,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignBidModifierOperation instance with
               # its "update" field prepopulated with an CampaignBidModifier instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3796,7 +3827,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation] the operation instance to update the resource
               def self.campaign_bid_modifier(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignBidModifier
                   resource_or_path
@@ -3806,11 +3837,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignBidModifier === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignBidModifier === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation.new
@@ -3818,7 +3851,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignBudgetOperation instance with
               # its "update" field prepopulated with an CampaignBudget instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3833,7 +3866,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation] the operation instance to update the resource
               def self.campaign_budget(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_budget_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_budget_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignBudget
                   resource_or_path
@@ -3843,11 +3876,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignBudget === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignBudget === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation.new
@@ -3855,7 +3890,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignConversionGoalOperation instance with
               # its "update" field prepopulated with an CampaignConversionGoal instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3870,7 +3905,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignConversionGoalOperation] the operation instance to update the resource
               def self.campaign_conversion_goal(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_conversion_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_conversion_goal_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignConversionGoal
                   resource_or_path
@@ -3880,11 +3915,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignConversionGoal === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignConversionGoal === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignConversionGoalOperation.new
@@ -3892,7 +3929,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignCriterionOperation instance with
               # its "update" field prepopulated with an CampaignCriterion instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3907,7 +3944,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation] the operation instance to update the resource
               def self.campaign_criterion(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_criterion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_criterion_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignCriterion
                   resource_or_path
@@ -3917,11 +3954,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignCriterion === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignCriterion === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation.new
@@ -3929,7 +3968,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignDraftOperation instance with
               # its "update" field prepopulated with an CampaignDraft instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3944,7 +3983,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation] the operation instance to update the resource
               def self.campaign_draft(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_draft_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_draft_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignDraft
                   resource_or_path
@@ -3954,11 +3993,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignDraft === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignDraft === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation.new
@@ -3966,7 +4007,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignGroupOperation instance with
               # its "update" field prepopulated with an CampaignGroup instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -3981,7 +4022,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation] the operation instance to update the resource
               def self.campaign_group(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_group_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignGroup
                   resource_or_path
@@ -3991,11 +4032,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignGroup === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignGroup === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation.new
@@ -4003,7 +4046,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignOperation instance with
               # its "update" field prepopulated with an Campaign instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4018,7 +4061,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignOperation] the operation instance to update the resource
               def self.campaign(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Campaign
                   resource_or_path
@@ -4028,11 +4071,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Campaign === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Campaign === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignOperation.new
@@ -4040,7 +4085,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ConversionActionOperation instance with
               # its "update" field prepopulated with an ConversionAction instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4055,7 +4100,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionActionOperation] the operation instance to update the resource
               def self.conversion_action(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/conversion_action_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_action_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::ConversionAction
                   resource_or_path
@@ -4065,11 +4110,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::ConversionAction === res
+                  unless Google::Ads::GoogleAds::V20::Resources::ConversionAction === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ConversionActionOperation.new
@@ -4077,7 +4124,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ConversionCustomVariableOperation instance with
               # its "update" field prepopulated with an ConversionCustomVariable instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4092,7 +4139,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation] the operation instance to update the resource
               def self.conversion_custom_variable(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::ConversionCustomVariable
                   resource_or_path
@@ -4102,11 +4149,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::ConversionCustomVariable === res
+                  unless Google::Ads::GoogleAds::V20::Resources::ConversionCustomVariable === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation.new
@@ -4114,7 +4163,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ConversionGoalCampaignConfigOperation instance with
               # its "update" field prepopulated with an ConversionGoalCampaignConfig instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4129,7 +4178,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionGoalCampaignConfigOperation] the operation instance to update the resource
               def self.conversion_goal_campaign_config(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/conversion_goal_campaign_config_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_goal_campaign_config_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::ConversionGoalCampaignConfig
                   resource_or_path
@@ -4139,11 +4188,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::ConversionGoalCampaignConfig === res
+                  unless Google::Ads::GoogleAds::V20::Resources::ConversionGoalCampaignConfig === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ConversionGoalCampaignConfigOperation.new
@@ -4151,7 +4202,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ConversionValueRuleOperation instance with
               # its "update" field prepopulated with an ConversionValueRule instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4166,7 +4217,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation] the operation instance to update the resource
               def self.conversion_value_rule(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::ConversionValueRule
                   resource_or_path
@@ -4176,11 +4227,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::ConversionValueRule === res
+                  unless Google::Ads::GoogleAds::V20::Resources::ConversionValueRule === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation.new
@@ -4188,7 +4241,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ConversionValueRuleSetOperation instance with
               # its "update" field prepopulated with an ConversionValueRuleSet instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4203,7 +4256,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation] the operation instance to update the resource
               def self.conversion_value_rule_set(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::ConversionValueRuleSet
                   resource_or_path
@@ -4213,11 +4266,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::ConversionValueRuleSet === res
+                  unless Google::Ads::GoogleAds::V20::Resources::ConversionValueRuleSet === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation.new
@@ -4225,7 +4280,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomConversionGoalOperation instance with
               # its "update" field prepopulated with an CustomConversionGoal instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4240,7 +4295,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation] the operation instance to update the resource
               def self.custom_conversion_goal(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomConversionGoal
                   resource_or_path
@@ -4250,11 +4305,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomConversionGoal === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomConversionGoal === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation.new
@@ -4262,7 +4319,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerAssetOperation instance with
               # its "update" field prepopulated with an CustomerAsset instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4277,7 +4334,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation] the operation instance to update the resource
               def self.customer_asset(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_asset_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerAsset
                   resource_or_path
@@ -4287,11 +4344,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerAsset === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerAsset === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation.new
@@ -4299,7 +4358,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerConversionGoalOperation instance with
               # its "update" field prepopulated with an CustomerConversionGoal instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4314,7 +4373,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerConversionGoalOperation] the operation instance to update the resource
               def self.customer_conversion_goal(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_conversion_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_conversion_goal_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerConversionGoal
                   resource_or_path
@@ -4324,11 +4383,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerConversionGoal === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerConversionGoal === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerConversionGoalOperation.new
@@ -4336,7 +4397,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerOperation instance with
               # its "update" field prepopulated with an Customer instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4351,7 +4412,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerOperation] the operation instance to update the resource
               def self.customer(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Customer
                   resource_or_path
@@ -4361,11 +4422,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Customer === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Customer === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerOperation.new
@@ -4373,7 +4436,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ExperimentArmOperation instance with
               # its "update" field prepopulated with an ExperimentArm instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4388,7 +4451,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation] the operation instance to update the resource
               def self.experiment_arm(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/experiment_arm_service_pb.rb"
+                require "google/ads/google_ads/v20/services/experiment_arm_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::ExperimentArm
                   resource_or_path
@@ -4398,11 +4461,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::ExperimentArm === res
+                  unless Google::Ads::GoogleAds::V20::Resources::ExperimentArm === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation.new
@@ -4410,7 +4475,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an ExperimentOperation instance with
               # its "update" field prepopulated with an Experiment instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4425,7 +4490,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::ExperimentOperation] the operation instance to update the resource
               def self.experiment(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/experiment_service_pb.rb"
+                require "google/ads/google_ads/v20/services/experiment_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Experiment
                   resource_or_path
@@ -4435,11 +4500,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Experiment === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Experiment === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentOperation.new
@@ -4447,7 +4514,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanAdGroupKeywordOperation instance with
               # its "update" field prepopulated with an KeywordPlanAdGroupKeyword instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4462,7 +4529,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation] the operation instance to update the resource
               def self.keyword_plan_ad_group_keyword(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::KeywordPlanAdGroupKeyword
                   resource_or_path
@@ -4472,11 +4539,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanAdGroupKeyword === res
+                  unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanAdGroupKeyword === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation.new
@@ -4484,7 +4553,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanAdGroupOperation instance with
               # its "update" field prepopulated with an KeywordPlanAdGroup instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4499,7 +4568,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation] the operation instance to update the resource
               def self.keyword_plan_ad_group(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::KeywordPlanAdGroup
                   resource_or_path
@@ -4509,11 +4578,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanAdGroup === res
+                  unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanAdGroup === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation.new
@@ -4521,7 +4592,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanCampaignKeywordOperation instance with
               # its "update" field prepopulated with an KeywordPlanCampaignKeyword instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4536,7 +4607,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation] the operation instance to update the resource
               def self.keyword_plan_campaign_keyword(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::KeywordPlanCampaignKeyword
                   resource_or_path
@@ -4546,11 +4617,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanCampaignKeyword === res
+                  unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanCampaignKeyword === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation.new
@@ -4558,7 +4631,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanCampaignOperation instance with
               # its "update" field prepopulated with an KeywordPlanCampaign instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4573,7 +4646,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation] the operation instance to update the resource
               def self.keyword_plan_campaign(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::KeywordPlanCampaign
                   resource_or_path
@@ -4583,11 +4656,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanCampaign === res
+                  unless Google::Ads::GoogleAds::V20::Resources::KeywordPlanCampaign === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation.new
@@ -4595,7 +4670,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanOperation instance with
               # its "update" field prepopulated with an KeywordPlan instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4610,7 +4685,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation] the operation instance to update the resource
               def self.keyword_plan(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/keyword_plan_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::KeywordPlan
                   resource_or_path
@@ -4620,11 +4695,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::KeywordPlan === res
+                  unless Google::Ads::GoogleAds::V20::Resources::KeywordPlan === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation.new
@@ -4632,7 +4709,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an LabelOperation instance with
               # its "update" field prepopulated with an Label instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4647,7 +4724,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::LabelOperation] the operation instance to update the resource
               def self.label(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/label_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::Label
                   resource_or_path
@@ -4657,11 +4734,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::Label === res
+                  unless Google::Ads::GoogleAds::V20::Resources::Label === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::LabelOperation.new
@@ -4669,7 +4748,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an RecommendationSubscriptionOperation instance with
               # its "update" field prepopulated with an RecommendationSubscription instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4684,7 +4763,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation] the operation instance to update the resource
               def self.recommendation_subscription(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb.rb"
+                require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::RecommendationSubscription
                   resource_or_path
@@ -4694,11 +4773,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::RecommendationSubscription === res
+                  unless Google::Ads::GoogleAds::V20::Resources::RecommendationSubscription === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation.new
@@ -4706,7 +4787,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an RemarketingActionOperation instance with
               # its "update" field prepopulated with an RemarketingAction instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4721,7 +4802,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation] the operation instance to update the resource
               def self.remarketing_action(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/remarketing_action_service_pb.rb"
+                require "google/ads/google_ads/v20/services/remarketing_action_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::RemarketingAction
                   resource_or_path
@@ -4731,11 +4812,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::RemarketingAction === res
+                  unless Google::Ads::GoogleAds::V20::Resources::RemarketingAction === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation.new
@@ -4743,7 +4826,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an SharedSetOperation instance with
               # its "update" field prepopulated with an SharedSet instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4758,7 +4841,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::SharedSetOperation] the operation instance to update the resource
               def self.shared_set(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/shared_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/shared_set_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::SharedSet
                   resource_or_path
@@ -4768,11 +4851,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::SharedSet === res
+                  unless Google::Ads::GoogleAds::V20::Resources::SharedSet === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::SharedSetOperation.new
@@ -4780,7 +4865,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an SmartCampaignSettingOperation instance with
               # its "update" field prepopulated with an SmartCampaignSetting instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4795,7 +4880,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::SmartCampaignSettingOperation] the operation instance to update the resource
               def self.smart_campaign_setting(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/smart_campaign_setting_service_pb.rb"
+                require "google/ads/google_ads/v20/services/smart_campaign_setting_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::SmartCampaignSetting
                   resource_or_path
@@ -4805,11 +4890,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::SmartCampaignSetting === res
+                  unless Google::Ads::GoogleAds::V20::Resources::SmartCampaignSetting === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::SmartCampaignSettingOperation.new
@@ -4817,7 +4904,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an UserListOperation instance with
               # its "update" field prepopulated with an UserList instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4832,7 +4919,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::UserListOperation] the operation instance to update the resource
               def self.user_list(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/user_list_service_pb.rb"
+                require "google/ads/google_ads/v20/services/user_list_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::UserList
                   resource_or_path
@@ -4842,11 +4929,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::UserList === res
+                  unless Google::Ads::GoogleAds::V20::Resources::UserList === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::UserListOperation.new
@@ -4854,7 +4943,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CampaignLifecycleGoalOperation instance with
               # its "update" field prepopulated with an CampaignLifecycleGoal instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4869,7 +4958,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation] the operation instance to update the resource
               def self.campaign_lifecycle_goal(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CampaignLifecycleGoal
                   resource_or_path
@@ -4879,11 +4968,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CampaignLifecycleGoal === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CampaignLifecycleGoal === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation.new
@@ -4891,7 +4982,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomAudienceOperation instance with
               # its "update" field prepopulated with an CustomAudience instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4906,7 +4997,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation] the operation instance to update the resource
               def self.custom_audience(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/custom_audience_service_pb.rb"
+                require "google/ads/google_ads/v20/services/custom_audience_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomAudience
                   resource_or_path
@@ -4916,11 +5007,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomAudience === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomAudience === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation.new
@@ -4928,7 +5021,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomInterestOperation instance with
               # its "update" field prepopulated with an CustomInterest instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4943,7 +5036,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomInterestOperation] the operation instance to update the resource
               def self.custom_interest(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/custom_interest_service_pb.rb"
+                require "google/ads/google_ads/v20/services/custom_interest_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomInterest
                   resource_or_path
@@ -4953,11 +5046,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomInterest === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomInterest === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomInterestOperation.new
@@ -4965,7 +5060,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerClientLinkOperation instance with
               # its "update" field prepopulated with an CustomerClientLink instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -4980,7 +5075,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation] the operation instance to update the resource
               def self.customer_client_link(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_client_link_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_client_link_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerClientLink
                   resource_or_path
@@ -4990,11 +5085,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerClientLink === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerClientLink === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation.new
@@ -5002,7 +5099,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerLifecycleGoalOperation instance with
               # its "update" field prepopulated with an CustomerLifecycleGoal instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -5017,7 +5114,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation] the operation instance to update the resource
               def self.customer_lifecycle_goal(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerLifecycleGoal
                   resource_or_path
@@ -5027,11 +5124,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerLifecycleGoal === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerLifecycleGoal === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation.new
@@ -5039,7 +5138,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerManagerLinkOperation instance with
               # its "update" field prepopulated with an CustomerManagerLink instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -5054,7 +5153,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerManagerLinkOperation] the operation instance to update the resource
               def self.customer_manager_link(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_manager_link_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_manager_link_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerManagerLink
                   resource_or_path
@@ -5064,11 +5163,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerManagerLink === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerManagerLink === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerManagerLinkOperation.new
@@ -5076,7 +5177,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerSkAdNetworkConversionValueSchemaOperation instance with
               # its "update" field prepopulated with an CustomerSkAdNetworkConversionValueSchema instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -5091,7 +5192,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerSkAdNetworkConversionValueSchemaOperation] the operation instance to update the resource
               def self.customer_sk_ad_network_conversion_value_schema(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_sk_ad_network_conversion_value_schema_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_sk_ad_network_conversion_value_schema_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerSkAdNetworkConversionValueSchema
                   resource_or_path
@@ -5101,11 +5202,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerSkAdNetworkConversionValueSchema === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerSkAdNetworkConversionValueSchema === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerSkAdNetworkConversionValueSchemaOperation.new
@@ -5113,7 +5216,7 @@ module Google
                 op["update"] = res
                 op
               end
-              
+
               # A convenience method for creating an CustomerUserAccessOperation instance with
               # its "update" field prepopulated with an CustomerUserAccess instance, and
               # its "update_mask" field populated as needed to send the updates to the API.
@@ -5128,7 +5231,7 @@ module Google
               #   @yield the passed block is called and updates against `resource` are recordered in the update mask
               # @return [Google::Ads::GoogleAds::V20::Services::CustomerUserAccessOperation] the operation instance to update the resource
               def self.customer_user_access(resource_or_path, &blk)
-                require "google/ads/google_ads/v20/services/customer_user_access_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_user_access_service_pb"
                 res = case resource_or_path
                 when Google::Ads::GoogleAds::V20::Resources::CustomerUserAccess
                   resource_or_path
@@ -5138,11 +5241,13 @@ module Google
                   obj.resource_name = resource_or_path
                   obj
                 else
-                  raise ArgumentError.new(
-                    "Called #{__method__} with instance of wrong type:"\
-                    " #{res.class} want #{operation.update_class.to_s}"\
-                    " or String representing resource name"
-                  ) unless Google::Ads::GoogleAds::V20::Resources::CustomerUserAccess === res
+                  unless Google::Ads::GoogleAds::V20::Resources::CustomerUserAccess === res
+                    raise ArgumentError.new(
+                      "Called #{__method__} with instance of wrong type:" \
+                      " #{res.class} want #{operation.update_class}" \
+                      " or String representing resource name"
+                    )
+                  end
                 end
 
                 op = Google::Ads::GoogleAds::V20::Services::CustomerUserAccessOperation.new
@@ -5150,946 +5255,943 @@ module Google
                 op["update"] = res
                 op
               end
-              
             end
 
             module RemoveResource
-              
               # A convenience method for creating an TargetRestrictionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.target_restriction(path)
-                require "google/ads/google_ads/v20/common/targeting_setting_pb.rb"
+                require "google/ads/google_ads/v20/common/targeting_setting_pb"
                 op = Google::Ads::GoogleAds::V20::Common::TargetRestrictionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AccountBudgetProposalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.account_budget_proposal(path)
-                require "google/ads/google_ads/v20/services/account_budget_proposal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/account_budget_proposal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AccountBudgetProposalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AccountLinkOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.account_link(path)
-                require "google/ads/google_ads/v20/services/account_link_service_pb.rb"
+                require "google/ads/google_ads/v20/services/account_link_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AccountLinkOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAdLabelOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_ad_label(path)
-                require "google/ads/google_ads/v20/services/ad_group_ad_label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_ad_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdLabelOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAdOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_ad(path)
-                require "google/ads/google_ads/v20/services/ad_group_ad_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_ad_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAdOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAssetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_asset(path)
-                require "google/ads/google_ads/v20/services/ad_group_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupAssetSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_asset_set(path)
-                require "google/ads/google_ads/v20/services/ad_group_asset_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupAssetSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupBidModifierOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_bid_modifier(path)
-                require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_bid_modifier_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupBidModifierOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionCustomizerOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_criterion_customizer(path)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_customizer_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_criterion_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionCustomizerOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionLabelOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_criterion_label(path)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_criterion_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionLabelOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCriterionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_criterion(path)
-                require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCriterionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupCustomizerOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_customizer(path)
-                require "google/ads/google_ads/v20/services/ad_group_customizer_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupCustomizerOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupLabelOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group_label(path)
-                require "google/ads/google_ads/v20/services/ad_group_label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupLabelOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdGroupOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_group(path)
-                require "google/ads/google_ads/v20/services/ad_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdGroupOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdParameterOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad_parameter(path)
-                require "google/ads/google_ads/v20/services/ad_parameter_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_parameter_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdParameterOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AdOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.ad(path)
-                require "google/ads/google_ads/v20/services/ad_service_pb.rb"
+                require "google/ads/google_ads/v20/services/ad_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AdOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupAssetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset_group_asset(path)
-                require "google/ads/google_ads/v20/services/asset_group_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupAssetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupListingGroupFilterOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset_group_listing_group_filter(path)
-                require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_listing_group_filter_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupListingGroupFilterOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset_group(path)
-                require "google/ads/google_ads/v20/services/asset_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetGroupSignalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset_group_signal(path)
-                require "google/ads/google_ads/v20/services/asset_group_signal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_group_signal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetGroupSignalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset(path)
-                require "google/ads/google_ads/v20/services/asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetSetAssetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset_set_asset(path)
-                require "google/ads/google_ads/v20/services/asset_set_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_set_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetAssetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AssetSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.asset_set(path)
-                require "google/ads/google_ads/v20/services/asset_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AssetSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an AudienceOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.audience(path)
-                require "google/ads/google_ads/v20/services/audience_service_pb.rb"
+                require "google/ads/google_ads/v20/services/audience_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::AudienceOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an BiddingDataExclusionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.bidding_data_exclusion(path)
-                require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/bidding_data_exclusion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BiddingDataExclusionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an BiddingSeasonalityAdjustmentOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.bidding_seasonality_adjustment(path)
-                require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb.rb"
+                require "google/ads/google_ads/v20/services/bidding_seasonality_adjustment_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BiddingSeasonalityAdjustmentOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an BiddingStrategyOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.bidding_strategy(path)
-                require "google/ads/google_ads/v20/services/bidding_strategy_service_pb.rb"
+                require "google/ads/google_ads/v20/services/bidding_strategy_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BiddingStrategyOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignAssetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_asset(path)
-                require "google/ads/google_ads/v20/services/campaign_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignAssetSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_asset_set(path)
-                require "google/ads/google_ads/v20/services/campaign_asset_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignAssetSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignBidModifierOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_bid_modifier(path)
-                require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_bid_modifier_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBidModifierOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignBudgetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_budget(path)
-                require "google/ads/google_ads/v20/services/campaign_budget_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_budget_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignBudgetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignConversionGoalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_conversion_goal(path)
-                require "google/ads/google_ads/v20/services/campaign_conversion_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_conversion_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignConversionGoalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignCriterionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_criterion(path)
-                require "google/ads/google_ads/v20/services/campaign_criterion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCriterionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignCustomizerOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_customizer(path)
-                require "google/ads/google_ads/v20/services/campaign_customizer_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignCustomizerOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignDraftOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_draft(path)
-                require "google/ads/google_ads/v20/services/campaign_draft_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_draft_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignDraftOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignGroupOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_group(path)
-                require "google/ads/google_ads/v20/services/campaign_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignGroupOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignLabelOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_label(path)
-                require "google/ads/google_ads/v20/services/campaign_label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLabelOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign(path)
-                require "google/ads/google_ads/v20/services/campaign_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an EnableOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.enable(path)
-                require "google/ads/google_ads/v20/services/campaign_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::EnableOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignSharedSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_shared_set(path)
-                require "google/ads/google_ads/v20/services/campaign_shared_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_shared_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignSharedSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ConversionActionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.conversion_action(path)
-                require "google/ads/google_ads/v20/services/conversion_action_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_action_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionActionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ConversionCustomVariableOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.conversion_custom_variable(path)
-                require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_custom_variable_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionCustomVariableOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ConversionGoalCampaignConfigOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.conversion_goal_campaign_config(path)
-                require "google/ads/google_ads/v20/services/conversion_goal_campaign_config_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_goal_campaign_config_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionGoalCampaignConfigOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ConversionValueRuleOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.conversion_value_rule(path)
-                require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_value_rule_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ConversionValueRuleSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.conversion_value_rule_set(path)
-                require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/conversion_value_rule_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ConversionValueRuleSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomConversionGoalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.custom_conversion_goal(path)
-                require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/custom_conversion_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomConversionGoalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerAssetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_asset(path)
-                require "google/ads/google_ads/v20/services/customer_asset_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_asset_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerConversionGoalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_conversion_goal(path)
-                require "google/ads/google_ads/v20/services/customer_conversion_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_conversion_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerConversionGoalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerCustomizerOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_customizer(path)
-                require "google/ads/google_ads/v20/services/customer_customizer_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_customizer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerCustomizerOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerLabelOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_label(path)
-                require "google/ads/google_ads/v20/services/customer_label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLabelOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerNegativeCriterionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_negative_criterion(path)
-                require "google/ads/google_ads/v20/services/customer_negative_criterion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_negative_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerNegativeCriterionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer(path)
-                require "google/ads/google_ads/v20/services/customer_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomizerAttributeOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customizer_attribute(path)
-                require "google/ads/google_ads/v20/services/customizer_attribute_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customizer_attribute_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomizerAttributeOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ExperimentArmOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.experiment_arm(path)
-                require "google/ads/google_ads/v20/services/experiment_arm_service_pb.rb"
+                require "google/ads/google_ads/v20/services/experiment_arm_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentArmOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ExperimentOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.experiment(path)
-                require "google/ads/google_ads/v20/services/experiment_service_pb.rb"
+                require "google/ads/google_ads/v20/services/experiment_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ExperimentOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanAdGroupKeywordOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.keyword_plan_ad_group_keyword(path)
-                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_keyword_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupKeywordOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanAdGroupOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.keyword_plan_ad_group(path)
-                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_ad_group_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanAdGroupOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanCampaignKeywordOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.keyword_plan_campaign_keyword(path)
-                require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_campaign_keyword_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignKeywordOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanCampaignOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.keyword_plan_campaign(path)
-                require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_campaign_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanCampaignOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an KeywordPlanOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.keyword_plan(path)
-                require "google/ads/google_ads/v20/services/keyword_plan_service_pb.rb"
+                require "google/ads/google_ads/v20/services/keyword_plan_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::KeywordPlanOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an LabelOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.label(path)
-                require "google/ads/google_ads/v20/services/label_service_pb.rb"
+                require "google/ads/google_ads/v20/services/label_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::LabelOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an RecommendationSubscriptionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.recommendation_subscription(path)
-                require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb.rb"
+                require "google/ads/google_ads/v20/services/recommendation_subscription_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::RecommendationSubscriptionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an RemarketingActionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.remarketing_action(path)
-                require "google/ads/google_ads/v20/services/remarketing_action_service_pb.rb"
+                require "google/ads/google_ads/v20/services/remarketing_action_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::RemarketingActionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an SharedCriterionOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.shared_criterion(path)
-                require "google/ads/google_ads/v20/services/shared_criterion_service_pb.rb"
+                require "google/ads/google_ads/v20/services/shared_criterion_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::SharedCriterionOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an SharedSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.shared_set(path)
-                require "google/ads/google_ads/v20/services/shared_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/shared_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::SharedSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an SmartCampaignSettingOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.smart_campaign_setting(path)
-                require "google/ads/google_ads/v20/services/smart_campaign_setting_service_pb.rb"
+                require "google/ads/google_ads/v20/services/smart_campaign_setting_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::SmartCampaignSettingOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an UserListOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.user_list(path)
-                require "google/ads/google_ads/v20/services/user_list_service_pb.rb"
+                require "google/ads/google_ads/v20/services/user_list_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::UserListOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an MutateOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.mutate(path)
-                require "google/ads/google_ads/v20/services/google_ads_service_pb.rb"
+                require "google/ads/google_ads/v20/services/google_ads_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::MutateOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an BatchJobOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.batch_job(path)
-                require "google/ads/google_ads/v20/services/batch_job_service_pb.rb"
+                require "google/ads/google_ads/v20/services/batch_job_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BatchJobOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an BillingSetupOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.billing_setup(path)
-                require "google/ads/google_ads/v20/services/billing_setup_service_pb.rb"
+                require "google/ads/google_ads/v20/services/billing_setup_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::BillingSetupOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CampaignLifecycleGoalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.campaign_lifecycle_goal(path)
-                require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/campaign_lifecycle_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CampaignLifecycleGoalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomAudienceOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.custom_audience(path)
-                require "google/ads/google_ads/v20/services/custom_audience_service_pb.rb"
+                require "google/ads/google_ads/v20/services/custom_audience_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomAudienceOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomInterestOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.custom_interest(path)
-                require "google/ads/google_ads/v20/services/custom_interest_service_pb.rb"
+                require "google/ads/google_ads/v20/services/custom_interest_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomInterestOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerAssetSetOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_asset_set(path)
-                require "google/ads/google_ads/v20/services/customer_asset_set_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_asset_set_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerAssetSetOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerClientLinkOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_client_link(path)
-                require "google/ads/google_ads/v20/services/customer_client_link_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_client_link_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerClientLinkOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerLifecycleGoalOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_lifecycle_goal(path)
-                require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_lifecycle_goal_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerLifecycleGoalOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerManagerLinkOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_manager_link(path)
-                require "google/ads/google_ads/v20/services/customer_manager_link_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_manager_link_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerManagerLinkOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerSkAdNetworkConversionValueSchemaOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_sk_ad_network_conversion_value_schema(path)
-                require "google/ads/google_ads/v20/services/customer_sk_ad_network_conversion_value_schema_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_sk_ad_network_conversion_value_schema_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerSkAdNetworkConversionValueSchemaOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerUserAccessInvitationOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_user_access_invitation(path)
-                require "google/ads/google_ads/v20/services/customer_user_access_invitation_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_user_access_invitation_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerUserAccessInvitationOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an CustomerUserAccessOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.customer_user_access(path)
-                require "google/ads/google_ads/v20/services/customer_user_access_service_pb.rb"
+                require "google/ads/google_ads/v20/services/customer_user_access_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::CustomerUserAccessOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an OfflineUserDataJobOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.offline_user_data_job(path)
-                require "google/ads/google_ads/v20/services/offline_user_data_job_service_pb.rb"
+                require "google/ads/google_ads/v20/services/offline_user_data_job_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::OfflineUserDataJobOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an ApplyRecommendationOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.apply_recommendation(path)
-                require "google/ads/google_ads/v20/services/recommendation_service_pb.rb"
+                require "google/ads/google_ads/v20/services/recommendation_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::ApplyRecommendationOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an DismissRecommendationOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.dismiss_recommendation(path)
-                require "google/ads/google_ads/v20/services/recommendation_service_pb.rb"
+                require "google/ads/google_ads/v20/services/recommendation_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::DismissRecommendationRequest::DismissRecommendationOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an UserDataOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.user_data(path)
-                require "google/ads/google_ads/v20/services/user_data_service_pb.rb"
+                require "google/ads/google_ads/v20/services/user_data_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::UserDataOperation.new
                 op["remove"] = path
                 op
               end
-              
+
               # A convenience method for creating an UserListCustomerTypeOperation instance with
               # its "remove" field preopulated with a resource path corresponding to the resource to be removed.
               #
               # @param path [String] the resource name of the resource to delete.
               def self.user_list_customer_type(path)
-                require "google/ads/google_ads/v20/services/user_list_customer_type_service_pb.rb"
+                require "google/ads/google_ads/v20/services/user_list_customer_type_service_pb"
                 op = Google::Ads::GoogleAds::V20::Services::UserListCustomerTypeOperation.new
                 op["remove"] = path
                 op
               end
-              
             end
           end
         end
